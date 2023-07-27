@@ -4,7 +4,7 @@
   "description": "The Open-Source prototyping tool",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-emails": "./scripts/build-email-templates.sh"
+    "build-emails": "node init && ./scripts/build-email-templates.sh"
   },
   "repository": {
     "type": "git",
